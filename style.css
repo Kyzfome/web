@@ -269,7 +269,7 @@ header::before {
   z-index: -1;
   transform-origin: center;
   min-height: 100vh;
-  background-image: url("https://www.nrdc.org/sites/default/files/styles/huge_16x9_100/public/2023-03/nrdc-nature-and-wildlife-1062342328.jpg.jpg?h=58c8a5e7&itok=r0rtlSiF");
+  background-image: url("/HeroPug.webp");
   background-repeat: no-repeat;
   background-size: cover;
   transition: 1s;
