@@ -13,7 +13,7 @@ body {
 }
 
 .menu {
-  background-color: #007bff;
+  background-color: #0056b3; /* Темніший синій для кращого контрасту */
   padding: 18px 0;
 }
 
@@ -31,14 +31,14 @@ body {
 
 .menu-link {
   text-decoration: none;
-  color: #fff;
+  color: #fff; /* Білий залишається, оскільки він має хороший контраст з темнішим синім */
   padding: 5px 10px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .menu-link:hover {
-  background-color: #0056b3;
+  background-color: #003f7f; /* Темніший колір для hover */
 }
 
 .description {
