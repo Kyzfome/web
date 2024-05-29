@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Buy Tickets - North American Wildlife Events</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Buy Tickets</h1>
+
+    <div class="menu">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a class="menu-link" href="index.html">Home</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="ticket_purchase.html">Order Tickets</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="catalog.html">Animal Catalog</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="about-us.html">About Us</a>
+        </li>
+        <li class="menu-item"><a class="menu-link" href="map.html">Map</a></li>
+      </ul>
+    </div>
+
+    <table class="event-table">
+      <tr>
+        <th>Event</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Wildlife Workshop</td>
+        <td>15.04.2024</td>
+        <td>Yellowstone National Park</td>
+        <td>A workshop for nature enthusiasts.</td>
+      </tr>
+      <tr>
+        <td>Birdwatching Tour</td>
+        <td>10.05.2024</td>
+        <td>Great Smoky Mountains</td>
+        <td>Guided tour to observe various bird species.</td>
+      </tr>
+    </table>
+
+    <h3 class="event-heading">Choose from upcoming events:</h3>
+
+    <form action="success-order.html" method="POST" class="order-form">
+      <label for="event" class="form-label">Select Event:</label>
+      <select id="event" name="event" class="form-select">
+        <option value="event1">Event 1 - Wildlife Photography Workshop</option>
+        <option value="event2">Event 2 - Birdwatching Tour</option>
+      </select>
+
+      <br /><br />
+      <label for="tickets" class="form-label">Number of Tickets:</label>
+      <input
+        type="number"
+        id="tickets"
+        name="tickets"
+        min="1"
+        value="1"
+        class="form-input"
+      />
+      <br /><br />
+      <input type="submit" value="Purchase Tickets" class="form-submit" />
+    </form>
+  </body>
+</html>
